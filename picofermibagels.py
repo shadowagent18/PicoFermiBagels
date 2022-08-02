@@ -11,9 +11,11 @@ def guess(n,k):
             if l[i] == j[i]:
                 print("fermi")
                 c = 1
+                continue
             elif j[i] in l[i:]:
                 print("pico")
                 c = 1
+                continue
         if c == 0: 
             print("bagels")
 def game():
